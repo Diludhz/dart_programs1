@@ -36,8 +36,10 @@ void main()
 // int age =2;
 // var result =age>=18? "Eligible for vote":404;
 // print(result);
-String usernmae="dilu";
-String password="dilu12";
+// String usernmae="dilu";
+// String password="dilu12";
 // var out = usernmae =="dilu" ? "username is correct": 404;,
 // var out1 =password =="dilu12"? "password is correct":404;
+print('Enter the ')
+
 }
