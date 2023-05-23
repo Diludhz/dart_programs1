@@ -40,6 +40,24 @@ void main()
 // String password="dilu12";
 // var out = usernmae =="dilu" ? "username is correct": 404;,
 // var out1 =password =="dilu12"? "password is correct":404;
-print('Enter the ')
+String? pwd;
+var re=pwd?.length ?? "password must not be null";
+print(re);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
