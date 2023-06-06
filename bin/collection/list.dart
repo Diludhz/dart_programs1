@@ -1,0 +1,51 @@
+void main() {
+  final growableList = <String>['a', 'b', 'r', 'q', 'm'];
+  growableList.add('X');
+  print(growableList);
+  print("--------------------------------");
+  growableList[4] = 'Z';
+  print(growableList);
+  print("--------------------------------");
+  growableList.addAll({'c', 'd', 'w'});
+  print(growableList);
+  print("--------------------------------");
+  growableList.insert(1, 'new');
+  print(growableList);
+  print("--------------------------------");
+  growableList.replaceRange(2, 4, ['AB', 'CD']);
+  print(growableList);
+  print("--------------------------------");
+  growableList.fillRange(2, 4, 'F');
+  print(growableList);
+  print("--------------------------------");
+
+  final growableList1 = List.empty(growable: true);
+  growableList1.add(1);
+  print(growableList1);
+  print("--------------------------------");
+  // final growableList2 = List.empty(growable: false);
+  // growableList2.add(2);
+  // print(growableList2);
+  print("---------------------------------");
+  print("---------------------------------");
+  final zeroList=List<int>.filled(3, 0,growable: true);
+  print(zeroList);
+  print("---------------------------------");
+  print("---------------------------------");
+  final shared=List.filled(4, []);
+  shared[0].add(499);
+  shared[1].add("hello");
+  print(shared);
+  print("---------------------------------");
+  print("---------------------------------");
+  final unique=List.generate(4, (_) => [ ]);
+  unique[0].add(899);
+  unique[1].add(544);
+  print(unique);
+  print("---------------------------------");
+  print("---------------------------------");
+  // final numbers=<num>[1,2,3];
+  // final listFrom=List<int>.from(4 as Iterable);
+  // print(listFrom);
+
+}
